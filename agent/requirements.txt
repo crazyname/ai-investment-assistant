@@ -1,3 +1,11 @@
 streamlit
 google-genai
 ddgs
+pandas
+requests
+yfinance
+akshare
+openai
+schedule
+alpaca-py
+tabulate

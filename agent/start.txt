@@ -1,0 +1,4 @@
+streamlit run wealth_advisor_app.py
+
+示例问题：
+请帮我分析今天的市场风险，并结合我的持仓给出操作建议。
