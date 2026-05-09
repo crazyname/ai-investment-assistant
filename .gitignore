@@ -1,0 +1,22 @@
+# Local secrets and personal data
+agent/private_config.txt
+agent/invest_memory.db
+agent/*.db
+agent/*.sqlite
+agent/*.sqlite3
+
+# Python / Streamlit cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Local environment files
+.env
+*.env
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

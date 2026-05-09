@@ -1,0 +1,19 @@
+# Copy this file to private_config.txt and fill in local-only values.
+# private_config.txt is ignored by Git and must not be uploaded.
+
+# Optional proxy used by the legacy Gemini planner.
+HTTP_PROXY=http://127.0.0.1:10808
+HTTPS_PROXY=http://127.0.0.1:10808
+
+# WeChat template-message credentials for portfolio_alert_monitor.py.
+WECHAT_APP_ID=
+WECHAT_APP_SECRET=
+WECHAT_USER_OPENID=
+WECHAT_TEMPLATE_ID=
+
+# Alpaca paper-trading credentials for alpaca_paper_trade_demo.py.
+ALPACA_API_KEY=
+ALPACA_SECRET_KEY=
+
+# Optional API keys exported from the local database can be recorded here.
+# AI_API_KEY_GEMINI_2_5_FLASH=

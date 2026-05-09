@@ -1,14 +1,13 @@
 import streamlit as st
-import os
 from ddgs import DDGS
 import datetime
+from config_utils import apply_proxy_from_config
 
 # ==========================================
 # 0. 网络代理设置 (解决一直转圈卡死的核心！)
 # ==========================================
-# 请将 7890 替换为你实际使用的代理软件端口
-os.environ["HTTP_PROXY"] = "http://127.0.0.1:10808"
-os.environ["HTTPS_PROXY"] = "http://127.0.0.1:10808"
+# 如需代理，请在 private_config.txt 或环境变量中设置 HTTP_PROXY / HTTPS_PROXY。
+apply_proxy_from_config()
 
 # ==========================================
 # 1. 页面 UI 设置
